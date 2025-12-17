@@ -515,19 +515,22 @@ p {
     text-transform: capitalize;
     padding-bottom: 60px;
 }
-.imgOne { 
-  height: 90px;
-  background: #C4C4C4;
-  border-radius: 20px;
-width: 100%;
+
+.imgOne {
+    height: 90px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    width: 100%;
 }
-.imgText p{
-      font-size: 16px;
+
+.imgText p {
+    font-size: 15px;
     font-weight: 400;
     color: #29313D;
     font-family: "Nunito", sans-serif;
-    line-height: 190%; 
+    line-height: 140%;
     padding-top: 60px;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
+
 /* customer part end */
