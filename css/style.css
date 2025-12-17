@@ -1,0 +1,480 @@
+/* All common css sart  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0.8;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All common css end  */
+/* Header part start  */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 30px 0, 0, 0, ;
+    background: transparent;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: #FF5538;
+
+}
+
+.headerbtn a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    border-radius: 18px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    background: #FF5538;
+    border: 1px solid #FF5538;
+    transition: .5s;
+}
+
+.headerbtn a:hover {
+    color: #FF5538;
+    background: transparent;
+}
+
+/* Header part end  */
+/* Banner part start  */
+#bannerpart {
+    padding: 300px;
+    background: url(../images/Header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerheadening h3 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 650px;
+    color: #29313D;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 160%;
+}
+
+.bannerheadening p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    width: 549px;
+    color: #29313D;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+    line-height: 200%;
+}
+
+.bannerBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.bannerBtn a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    font-family: "Nunito", sans-serif;
+    line-height: 200%;
+    color: #FFFFFF;
+    background: #FF5538;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #FF5538;
+    margin: 0 25px;
+    transition: 0.5s;
+}
+
+.bannerBtn a:hover {
+    background: transparent;
+    color: #FF5538;
+}
+
+/* Banner part end */
+
+/* aboutcard part start  */
+
+.about {
+    position: relative;
+
+}
+
+.aboutpoint {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    padding: 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(66, 68, 90, 1);
+    transition: 0.5s;
+    z-index: 99;
+}
+
+.aboutpoint:hover {
+    transform: scale(1.1);
+}
+
+.aboutpoint h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #29313D;
+    line-height: 160%;
+    text-transform: capitalize;
+    padding: 35px 0 15px 0;
+}
+
+.aboutpoint p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #29313D;
+    line-height: 200%;
+    text-transform: capitalize;
+
+}
+
+/* aboutcard part end  */
+
+/* Digital part start  */
+#Digitalpart {
+    background: #FFFFFF;
+    padding: 200px 0;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.digitaltext h4 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #FF5538;
+    margin-top: -50px;
+}
+
+.digitaltext h3 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+.blank {
+    background: #C4C4C4;
+    position: absolute;
+    height: 70%;
+    width: 44%;
+    left: 1px;
+    bottom: -230px;
+    z-index: 95;
+}
+
+.imageThree {
+    position: absolute;
+    top: 270px;
+    left: 430px;
+}
+
+.digitalImg {
+    position: absolute;
+    background: #FBF3F0;
+    /* padding: 150px 0; */
+    width: 55%;
+    height: 102%;
+    bottom: -300;
+    right: 0px;
+    z-index: 97;
+}
+
+.digitalImg h4 {
+    font-size: 41px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 135%;
+    color: #29313D;
+    margin-top: 65px;
+    /* text-align: center; */
+    padding-right: 60px;
+}
+
+.digitalImg p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #29313D;
+    font-family: "Nunito", sans-serif;
+    padding-right: 163px;
+    margin-top: 25px;
+}
+
+.digitalImg a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    background: #FF5538;
+    padding: 15px 30px;
+    border-radius: 18px;
+    display: inline-block;
+    transition: 0.5s;
+    margin-top: 40px;
+}
+
+.digitalImg a:hover {
+    color: #FF5538;
+    background: transparent;
+}
+
+.digitalImg img {
+    position: absolute;
+    right: 12px;
+    top: 44px;
+}
+
+/* Digital part end */
+/* Digital exprience part start  */
+#experiencepart {
+    background: #FFFFFF;
+    padding: 300px 0;
+    position: relative;
+}
+.experience{
+    padding-top: 100px;
+}
+.experience h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #FF5538;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.experience h4 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #29313D;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.mobileBox {
+    padding: 150px 0;
+    background: #C4C4C4;
+    margin-top: 60px;
+}
+.mobiletext{
+    padding: 30px 0px 60px 30px;
+}
+.mobiletext h3 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #29313D;
+
+}
+
+.mobiletext p {
+      font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+  color: #FF5538;
+    font-family: "Nunito", sans-serif;
+}
+.EcommerceBox{
+    padding: 150px 0;
+    background: #C4C4C4;
+    margin-top: 60px;
+}
+.ECommerceText{
+    padding: 30px 0px 60px 30px;
+}
+.ECommerceText h3{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    color: #29313D;
+ text-transform: capitalize;
+ 
+}
+.ECommerceText p{
+         font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+  color: #FF5538;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+   
+} 
+
+.viewBtn{
+    padding-top: 120px;
+}
+
+.viewBtn a{
+   font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    font-family: "Nunito", sans-serif;
+    line-height: 200%;
+    color: #FFFFFF;
+    background: #FF5538;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #FF5538;
+ 
+    transition: 0.5s; 
+
+}
+
+.viewBtn a:hover{
+    background: transparent;
+    color: #FF5538;
+}
+
+.elemnts{
+    position: relative;
+}
+.elemnts img{
+    position: absolute;
+    top: -250px;
+    left: 0;
+}
+.expCard{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Digital exprience part end*/
+/* counter part start  */
+.counterCard{
+    background: #FFFFFF;
+    height: 150px;
+    width: 170px;
+    text-align: center;
+    padding: 50px 0px;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+     transition: 0.5s;
+}
+.counterCard:hover{
+ transform: scale(1.1);
+}
+.counterCard h4{
+  color: #29313D;
+ padding: 18px 2px;
+    font-family: "Poppins", sans-serif;
+      line-height: 140%;
+      font-weight: 600;
+}
+.counterCard h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+     font-family: "Poppins", sans-serif;
+     line-height: 100%;
+}
+.conterText h3{
+   font-size: 42px;
+    font-weight: 600;
+    color: #29313D;
+     font-family: "Poppins", sans-serif;
+     line-height: 140%;  
+     padding: -60px 0;
+}
+.conterText p{
+     font-size: 15px;
+    font-weight: 400;
+    color: #29313D;
+      font-family: "Nunito", sans-serif;
+     line-height: 200%; 
+     padding-bottom: 50px;
+}
+.conterText a{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    border-radius: 18px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    background: #FF5538;
+    border: 1px solid #FF5538;
+    transition: .5s;
+    
+}
+.conterText a:hover{
+    color: #FF5538;
+    background: transparent;
+}
+/* counter part end  */
+/* icon part start  */
+#iconpart{
+    padding: 200px 0;
+background: #FFFFFF;
+
+}
+.globalText h3{
+     font-size: 35px;
+    font-weight: 600;
+    color: #29313D;
+     font-family: "Poppins", sans-serif;
+     line-height: 140%;  
+     text-align: center;
+     padding-left: 100px;
+     text-transform: capitalize;
+     padding-bottom: 60px;
+}
+.firstImg img{
+    width: 100%;
+}
+/* icon part end */
