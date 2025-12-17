@@ -285,9 +285,11 @@ p {
     padding: 300px 0;
     position: relative;
 }
-.experience{
+
+.experience {
     padding-top: 100px;
 }
+
 .experience h3 {
     font-size: 20px;
     font-weight: 500;
@@ -313,9 +315,11 @@ p {
     background: #C4C4C4;
     margin-top: 60px;
 }
-.mobiletext{
+
+.mobiletext {
     padding: 30px 0px 60px 30px;
 }
+
 .mobiletext h3 {
     font-size: 28px;
     font-weight: 600;
@@ -326,45 +330,49 @@ p {
 }
 
 .mobiletext p {
-      font-size: 18px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 100%;
-  color: #FF5538;
+    color: #FF5538;
     font-family: "Nunito", sans-serif;
 }
-.EcommerceBox{
+
+.EcommerceBox {
     padding: 150px 0;
     background: #C4C4C4;
     margin-top: 60px;
 }
-.ECommerceText{
+
+.ECommerceText {
     padding: 30px 0px 60px 30px;
 }
-.ECommerceText h3{
+
+.ECommerceText h3 {
     font-size: 28px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     line-height: 140%;
     color: #29313D;
- text-transform: capitalize;
- 
+    text-transform: capitalize;
+
 }
-.ECommerceText p{
-         font-size: 18px;
+
+.ECommerceText p {
+    font-size: 18px;
     font-weight: 500;
     line-height: 100%;
-  color: #FF5538;
+    color: #FF5538;
     font-family: "Nunito", sans-serif;
     text-transform: capitalize;
-   
-} 
 
-.viewBtn{
+}
+
+.viewBtn {
     padding-top: 120px;
 }
 
-.viewBtn a{
-   font-size: 18px;
+.viewBtn a {
+    font-size: 18px;
     font-weight: 600;
     padding: 15px 30px;
     font-family: "Nunito", sans-serif;
@@ -374,73 +382,81 @@ p {
     border-radius: 18px;
     text-align: center;
     border: 1px solid #FF5538;
- 
-    transition: 0.5s; 
+
+    transition: 0.5s;
 
 }
 
-.viewBtn a:hover{
+.viewBtn a:hover {
     background: transparent;
     color: #FF5538;
 }
 
-.elemnts{
+.elemnts {
     position: relative;
 }
-.elemnts img{
+
+.elemnts img {
     position: absolute;
     top: -250px;
     left: 0;
 }
-.expCard{
+
+.expCard {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Digital exprience part end*/
 /* counter part start  */
-.counterCard{
+.counterCard {
     background: #FFFFFF;
     height: 150px;
     width: 170px;
     text-align: center;
     padding: 50px 0px;
-     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
-     transition: 0.5s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
 }
-.counterCard:hover{
- transform: scale(1.1);
+
+.counterCard:hover {
+    transform: scale(1.1);
 }
-.counterCard h4{
-  color: #29313D;
- padding: 18px 2px;
+
+.counterCard h4 {
+    color: #29313D;
+    padding: 18px 2px;
     font-family: "Poppins", sans-serif;
-      line-height: 140%;
-      font-weight: 600;
+    line-height: 140%;
+    font-weight: 600;
 }
-.counterCard h5{
+
+.counterCard h5 {
     font-size: 18px;
     font-weight: 400;
     color: #29313D;
-     font-family: "Poppins", sans-serif;
-     line-height: 100%;
+    font-family: "Poppins", sans-serif;
+    line-height: 100%;
 }
-.conterText h3{
-   font-size: 42px;
+
+.conterText h3 {
+    font-size: 42px;
     font-weight: 600;
     color: #29313D;
-     font-family: "Poppins", sans-serif;
-     line-height: 140%;  
-     padding: -60px 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    padding: -60px 0;
 }
-.conterText p{
-     font-size: 15px;
+
+.conterText p {
+    font-size: 15px;
     font-weight: 400;
     color: #29313D;
-      font-family: "Nunito", sans-serif;
-     line-height: 200%; 
-     padding-bottom: 50px;
+    font-family: "Nunito", sans-serif;
+    line-height: 200%;
+    padding-bottom: 50px;
 }
-.conterText a{
+
+.conterText a {
     font-size: 18px;
     font-weight: 600;
     font-family: "Nunito", sans-serif;
@@ -450,31 +466,68 @@ p {
     background: #FF5538;
     border: 1px solid #FF5538;
     transition: .5s;
-    
+
 }
-.conterText a:hover{
+
+.conterText a:hover {
     color: #FF5538;
     background: transparent;
 }
+
 /* counter part end  */
 /* icon part start  */
-#iconpart{
+#iconpart {
     padding: 200px 0;
-background: #FFFFFF;
+    background: #FFFFFF;
 
 }
-.globalText h3{
-     font-size: 35px;
+
+.globalText h3 {
+    font-size: 35px;
     font-weight: 600;
     color: #29313D;
-     font-family: "Poppins", sans-serif;
-     line-height: 140%;  
-     text-align: center;
-     padding-left: 100px;
-     text-transform: capitalize;
-     padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    text-align: center;
+    padding-left: 100px;
+    text-transform: capitalize;
+    padding-bottom: 60px;
 }
- .firstImg img{
+
+.firstImg img {
     width: 100%;
- } 
+}
+
 /* icon part end */
+/* customer part strat  */
+#customerpart {
+    background: #FDF9F8;
+    padding: 150px 0;
+}
+
+.customerText {
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+}
+.imgOne { 
+  height: 90px;
+  background: #C4C4C4;
+  border-radius: 20px;
+width: 100%;
+}
+.imgText p{
+      font-size: 16px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", sans-serif;
+    line-height: 190%; 
+    padding-top: 60px;
+     text-transform: capitalize;
+}
+/* customer part end */
